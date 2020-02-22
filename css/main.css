@@ -1,0 +1,43 @@
+html {
+    background: #000;
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'Source Sans Pro', 'Lato';
+}
+
+.class1 {
+    background: #16004d;
+    color: #8fc1ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.class2 {
+    position: absolute;
+    right: 0;
+}
+
+.class3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', 'Railway';
+    font-size: 16px;
+    animation: 1s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
