@@ -45,4 +45,3 @@ function run() {
   }
   var button = document.getElementById("click-me");
   button.addEventListener("click", someFunction);
-}
